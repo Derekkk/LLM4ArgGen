@@ -1,2 +1,2 @@
 # LLM4ArgGen
-[INLG 2024] ☕️ AMERICANO: Argument Generation with Discourse-driven Decomposition and Agent Interaction
+This repository contains data and code for paper: AMERICANO: Argument Generation with Discourse-driven Decomposition and Agent Interaction
