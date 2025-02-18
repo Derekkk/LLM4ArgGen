@@ -1,0 +1,13 @@
+Given a proposition on a controversial topic: ##input_proposition
+
+
+Your task is to create a pool of 6 to 10 debate agents, each of whom will refute the given proposition from a distinct perspective. Each agent should represent a unique viewpoint that is relevant to the proposition.
+
+For each agent, assign a unique persona description in one sentence, along with a corresponding claim that focuses on a specific angle to refute the proposal. Ensure that each agent's viewpoint is distinct and relevant to the proposition. To foster diversity and fairness, the agents should reflect a variety of communities and perspectives.
+
+Please format your persona descriptions as follows, with each line being a JSON object:
+
+{"agent_id": 0, "description": the_description_of_Agent_0, "claim": the_claim_of_Agent_0}
+{"agent_id": 1, "description": the_description_of_Agent_1, "claim": the_claim_of_Agent_1}
+{"agent_id": 2, "description": the_description_of_Agent_2, "claim": the_claim_of_Agent_2}
+...

@@ -1,0 +1,15 @@
+Given a proposition: ##input_proposition
+
+You need to build a team of three agents, to work together and collaboratively formulate a persuasive counterargument that refutes the given proposition. 
+Now given the following candidates, where each candidate has a unique persona offering a different perspective relevant to the topic at hand. You need to select three agents that you think can together form a strong team to achieve the task. 
+When making your selections, consider the importance of diversity to ensure a balanced and fair discussion. For each selection, give the reason why you select the candidate.
+
+## Candidate list:
+###candidate_list
+
+
+Please select three candidates and add a reason. Each line of output should be a JSON object as follows:
+
+{"agent_id": 0, "description": the_description_of_Agent_0, "claim": the_claim_of_Agent_0, "reason": the_reason_of_selection}
+{"agent_id": 1, "description": the_description_of_Agent_1, "claim": the_claim_of_Agent_1, "reason": the_reason_of_selection}
+...

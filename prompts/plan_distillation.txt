@@ -1,0 +1,32 @@
+## Background: 
+You are provided with a multi-round discussion process aimed at analyzing and refuting a given proposition on a controversial topic. The participants are as follows:
+
+1. A Main Team of Three Members: Agent A, Agent B, and Agent C
+- Stance: Oppose the proposition;
+- Objective: Discuss and collaborate to brainstorm and develop a proposal that outlines the comprehensive logical flow to effectively refute the proposition.
+- Specific Personas and claims of the team members:
+	- Agent A: persona_a;
+	- Agent B: persona_b; 
+	- Agent C: persona_c;
+
+
+2. A Critic
+- Stance: Support the proposition;
+- Objective: Challenge the Main Team by identifying weaknesses in their discussion and debating their points.
+
+
+## Task: 
+Summarize and distill the discussion into a plan that outlines the overall idea of the discussion, which will be used for generating a counterargument.
+
+- The plan should be abstract and concise, containing up to three main points, each of which can be supported by sub-points. An optional acknowledgment point may also be included.
+- The plan must strictly adhere to the ideas developed by the Main Team during the discussion.
+
+-------
+- Proposition: {input_proposition}
+
+- Discussion Process:
+{discussion_process}
+
+-------
+
+Now, generate the final plan given the proposition:

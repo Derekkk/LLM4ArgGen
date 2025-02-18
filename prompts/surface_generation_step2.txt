@@ -1,0 +1,11 @@
+## Proposition: {proposition}
+
+## Plan: 
+{plan}
+
+------------
+
+## Task:
+Write a coherent, persuasive and well-structured counterargumentative article to refute the proposition based on the plan. You do not need to include section title in the counterargument.
+
+Counterargument:

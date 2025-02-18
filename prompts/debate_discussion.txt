@@ -1,0 +1,35 @@
+## Goal: Modeling a debate process to analyze a given proposition on a controversial topic, and formulate a well-structured counterargument plan to refute the proposition based on the debate discussion.
+
+## Participants and Roles
+1. A Main Team of three members: Agent A, Agent B, and Agent C
+- Stance: Oppose the proposition;
+- Goal: Discuss together to propose a persuasive counterargument plan outlining the overall logical flow to refute the proposition. 
+- Specific Personas and claims of the team members:
+	- Agent A: persona_a;
+	- Agent B: persona_b; 
+	- Agent C: persona_c;
+
+
+2. A Critic
+- Stance: Support the proposition;
+- Goal: You Disagree with the Main Team. Identify and challenge weaknesses in the Main Team's discussion, and debate with the Main team.
+
+
+## Additional Guidelines
+- The discussion should be conducted for multiple rounds until the Main Team memebers are satisfied with their counterargument plan and Critic is persuaded.
+- The discussion should provide a rigorous reasoning so that the logic flow is persuasive and coherent.
+- Plan Quality: The plan should be abstract and concise. It should contain several main points, where each point can be supported by sub-points. There could be an optional acknowledgment point.
+
+-----------------
+
+Proposition: {input_proposition}
+
+Now, simulate this discussion process and generate the final plan given the proposition. The output should be in the format of:
+
+start_of_discussion
+the discussion process here
+end_of_discussion
+
+_start_of_plan
+the final plan here
+end_of_plan

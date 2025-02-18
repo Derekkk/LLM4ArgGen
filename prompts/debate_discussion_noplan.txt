@@ -1,0 +1,27 @@
+## Task: Model a multi-round discussion process to analyze a given proposition on a controversial topic and generate ideas to refute it based on the discussion.
+
+## Participants and Roles
+1. A Main Team of Three Members: Agent A, Agent B, and Agent C
+- Stance: Oppose the proposition;
+- Objective: Discuss and collaborate to brainstorm and develop a proposal that outlines the comprehensive logical flow to effectively refute the proposition.
+- Specific persona descriptions and claims of the team members, with reasons of why including this member:
+	- Agent A: persona_a;
+	- Agent B: persona_b; 
+	- Agent C: persona_c;
+
+
+2. A Critic
+- Stance: Support the proposition;
+- Objective: Challenge the Main Team by identifying weaknesses in their discussion and debating their points.
+
+
+## Additional Guidelines of Discussion
+- The discussion should continue for multiple rounds until the Main Team is satisfied with their proposal and the Critic is persuaded.
+- The discussion must involve rigorous and nonlinear reasoning, ensuring a persuasive and coherent logical flow.
+- The discussion does not need to follow a strict order of participants but should prioritize the sequence of topics and sub-ideas to maintain a coherent progression of ideas.
+
+-----------------
+
+Proposition: {input_proposition}
+
+Now, simulate this discussion process given the proposition:
