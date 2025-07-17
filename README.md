@@ -1,7 +1,7 @@
 # LLM4ArgGen
 
 ## Code Structure
-- `debate2write_arg_gen.py`: the code for generating a counterargumentat with persona-driven multi-agent debate
+- `debate2write_arg_gen.py`: the code for generating a counterargument with persona-driven multi-agent debate
 
 
 Note: The Repo is still under construction, and code will be updated soon.
